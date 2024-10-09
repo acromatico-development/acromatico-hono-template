@@ -1,20 +1,20 @@
 {
-  "name": "acromatico-hono-template",
-  "version": "1.0.0",
+  "name": "create-acromatico-hono-template",
+  "version": "0.0.7",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "create-acromatico-hono": "index.js",
-    "ctpl": "index.js"
+    "create-acromatico-hono": "index.js"
   },
   "engines": {
     "node": ">=20.0.0"
   },
   "files": [
     "index.js",
-    "templates/*"
+    "template",
+    "src"
   ],
-  "devDependencies": {
+  "dependencies": {
     "prompts": "^2.4.2"
   }
 }
