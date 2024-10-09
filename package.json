@@ -1,0 +1,21 @@
+{
+  "name": "acromatico-hono-template",
+  "version": "0.0.1",
+  "author": "Rafael González <rafa@acromati.co>",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "node build.js",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.2",
+    "dotenv": "^16.4.5",
+    "hono": "^4.5.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "esbuild": "^0.24.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.6.3"
+  }
+}
