@@ -6,7 +6,7 @@ const sharedConfig = {
   bundle: true,
   minify: false,
   // only needed if you have dependencies
-  // external: Object.keys(dependencies).concat(Object.keys(peerDependencies)),
+  external: Object.keys(dependencies).concat(Object.keys(peerDependencies)),
 };
 
 build({
